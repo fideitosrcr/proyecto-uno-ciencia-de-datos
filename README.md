@@ -1,6 +1,6 @@
 # Análisis de la base de datos BioTIME
 
-![Banner de biodiversidad](./banner.png)
+![Banner de biodiversidad](https://unsplash.com/es/fotos/un-burro-con-una-silla-de-montar-KZUZ_9BmzAs)
 
 Este proyecto implementa un **pipeline ETL (Bronce → Silver → Gold)** para procesar y analizar datos de **BioTIME**, una base de datos global de biodiversidad que contiene registros de abundancia y ocurrencia de especies a lo largo del tiempo y el espacio.
 
@@ -10,6 +10,7 @@ El pipeline está escrito en Python y utiliza **DuckDB** como motor de consultas
 
 ## 📁 Estructura del repositorio
 proyecto-uno-ciencia-de-datos/
+
 ├── .gitignore
 
 ├── requirements.txt
