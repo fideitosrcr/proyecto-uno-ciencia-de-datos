@@ -11,20 +11,35 @@ El pipeline está escrito en Python y utiliza **DuckDB** como motor de consultas
 ## 📁 Estructura del repositorio
 proyecto-uno-ciencia-de-datos/
 ├── .gitignore
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── notebooks/
+
 │ ├── bronze.py
+
 │ ├── silver.py
+
 │ └── gold.py
+
 └── datos/
+
 │ ├── datos_crudos/ # <-- Aquí van los archivos originales de BioTIME
+
 │ ├── biotime_v2_query_15April25.rds
+
 │ └── biotime_v2_metadata_15April25.csv
+
 ├── bronze_output/ # Generada por bronze.py (no se sube)
+
 ├── silver_output/ # Generada por silver.py (no se sube)
+
 ├── gold_output/ # Generada por gold.py (no se sube)
+
 └── gold_input/ # Carpeta intermedia (no se sube)
+
 
 
 > **Nota:** Las carpetas `bronze_output`, `silver_output`, `gold_output` y `gold_input` se crean automáticamente al ejecutar los scripts. Los archivos grandes (`.duckdb`, `.parquet`) no se suben a GitHub por su tamaño (se regeneran localmente).
