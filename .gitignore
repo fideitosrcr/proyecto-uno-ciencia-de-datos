@@ -1,0 +1,18 @@
+
+proyecto_1/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+__pycache__/
+*.pyc
+
+# Archivos generados por el pipeline (grandes y regenerables)
+*.duckdb
+*.parquet
+datos/bronze_output/
+datos/silver_output/
+datos/gold_output/
+datos/gold_input/
+

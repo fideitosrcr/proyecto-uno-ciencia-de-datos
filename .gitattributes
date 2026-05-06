@@ -1,0 +1,2 @@
+datos/datos_crudos/*.rds filter=lfs diff=lfs merge=lfs -text
+datos/datos_crudos/*.csv filter=lfs diff=lfs merge=lfs -text
